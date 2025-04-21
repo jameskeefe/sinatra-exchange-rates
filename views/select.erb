@@ -1,0 +1,18 @@
+<h1>
+Convert <%= @base %>
+</h1>
+
+<p>
+Go <a href="/">back</a>. 
+</p>
+
+<ul>
+  <% @currencies.each do |quote| %>
+    <li>
+       <a href="/<%= @base %>/<%= quote %>">Convert 1 <%= @base %> to <%= quote %></a>
+    </li>
+  <% end %>
+</ol>
+
+
+</ul>
